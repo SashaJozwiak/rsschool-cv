@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curriculum Vitae</title>
+    <link rel="icon" href="./assets/png/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#Contacts">Contacts</a></li>
+            <li><a class="nav-link" href="#Summary">Summary</a></li>
+            <li><a class="nav-link" href="#Skills">Skills</a></li>
+            <li><a class="nav-link" href="#Code">Code</a></li>
+            <li><a class="nav-link" href="#Projects">Projects</a></li>
+            <li><a class="nav-link" href="#Education">Education</a></li>
+            <li><a class="nav-link" href="#English">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <div class="main">
+        <section class="title-section">
+          <img src="./assets/img/ivanov.jpg" alt="photo_ivanov" />
+          <div class="fio">
+            <h1>Alexander&nbsp;Ivanov</h1>
+            <h3>Junior&nbsp;Front-end&nbsp;developer</h3>
+
+            <div class="contacts" id="Contacts">
+              <h4>Contacts:</h4>
+              <ul class="list-contacts">
+                <li>
+                  📓Github:
+                  <a target="_blank" href="https://github.com/SashaJozwiak"
+                    >SashaJozwiak</a
+                  >
+                </li>
+
+                <li>
+                  🎮Discord:
+                  <a
+                    target="_blank"
+                    href="https://discordapp.com/users/924587955794874388"
+                    >Zwiak#7233</a
+                  >
+                </li>
+
+                <li>
+                  ✈ Telegram:
+                  <a target="_blank" href="https://t.me/zwiak">Zwiak</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="all-info" id="Summary">
+        <section class="sections">
+          <h2>Summary</h2>
+          I like programming. My goal is to learn a pure JavaScript at a good
+          level and learn the React library. I would like to take part in the
+          creation of a real JavaScript project. Special interests: blockchain,
+          metaverses.
+        </section>
+
+        <section class="sections" id="Skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Web-development: <b>HTML5, CSS3, JS</b></li>
+            <li>Version control: <b>GIT, Github</b></li>
+            <li>Graphics: <b>Figma</b></li>
+          </ul>
+        </section>
+
+        <section class="sections" id="Code">
+          <h2>Code</h2>
+          <pre>
+<code class="code">document.querySelector("#btn").onclick = function () {
+    const code = document.getElementById("code");
+    const showcode = 'code.innerHTML += `${showcode}`;\nbtn.remove();\n};';</code>                 
+<code class="code" id="code">&nbsp;&nbsp;&nbsp;&nbsp;</code></pre>
+          <div class="button">
+            <button class="btn" id="btn">Show all</button>
+          </div>
+        </section>
+
+        <section class="sections" id="Projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              Regional News aggregator
+              <a target="_blank" href="https://atver.ru">atver.ru</a> (WP, work)
+            </li>
+            <li>
+              News portal
+              <a
+                target="_blank"
+                href=" https://web.archive.org/web/20200814232846/https://pomotivam.ru/"
+                >pomotivam.ru</a
+              >
+              (WP, in web.archive)
+            </li>
+            <li>
+              Сryptofund and indexes
+              <a
+                target="_blank"
+                href="https://github.com/SashaJozwiak/indx-1.00"
+                >github</a
+              >
+              (JS, API; draft)
+            </li>
+            <li>This <a target="_blank" href="#">Curriculum Vitae</a></li>
+            <li>RSS educational projects 
+              <a target="_blank" href="https://rolling-scopes-school.github.io/sashajozwiak-JSFEPRESCHOOL/portfolio/">Portfolio</a>
+              <a target="_blank" href="https://rolling-scopes-school.github.io/sashajozwiak-JSFEPRESCHOOL/js30-audio-player/">Audio player</a>
+              <a target="_blank" href="https://rolling-scopes-school.github.io/sashajozwiak-JSFEPRESCHOOL/js30-tic-tac-toe/">Tic-tac-toe</a>
+              <a target="_blank" href="https://rolling-scopes-school.github.io/sashajozwiak-JSFE2022Q1/shelter/pages/main/">Shelter</a>
+              <a target="_blank" href="https://sashajozwiak.github.io/virtual-keyboard/">Virtual keyboard</a>
+              <a target="_blank" href="https://sashajozwiak.github.io/cssMemSlider/cssMemSlider/">Css slider</a>            
+            </li>
+          </ul>
+        </section>
+
+        <section class="sections" id="Education">
+          <h2>Education</h2>
+          <ul>
+            <li>Tver polytechnic university, information technology</li>
+
+            <li>RS-School</li>
+          </ul>
+        </section>
+
+        <section class="sections" id="English">
+          <h2>English</h2>
+          A2+ (in progress: duolingo, tongo, etc)
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="copyright">
+        © 2022
+        <a target="_blank" href="https://github.com/SashaJozwiak"
+          ><span>Sasha Jozwiak</span></a
+        >
+      </div>
+
+      <a class="rss" target="_blank" href="https://rs.school/js/"></a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
